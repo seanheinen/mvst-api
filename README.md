@@ -24,7 +24,29 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+API for [timer app](https://github.com/seanheinen/mvst-timer).
+
+Containerised and hosted [here](https://mvst-api.herokuapp.com/).
+
+Endpoints include:
+```
+URL: https://mvst-api.herokuapp.com/timer
+Verb: GET
+Response: {
+  "totalMs": number
+}
+```
+and
+```
+URL: https://mvst-api.herokuapp.com/timer
+Verb: PUT
+Request: {
+  "totalMs": number
+}
+Response: {
+  "totalMs": number
+}
+```
 
 ## Installation
 
@@ -61,12 +83,6 @@ $ npm run test:cov
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
